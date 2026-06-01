@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paraná: Orgulho, Cultura e Natureza</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        @page {
+            size: A4;
+            margin: 15mm 12mm;
+            background-color: #fafbfc;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background-color: #fafbfc;
+            font-size: 10.5pt;
+        }
+
+        .header-banner {
+            background: linear-gradient(135deg, #1e4620 0%, #2e7d32 100%);
+            color: #ffffff;
+            padding: 35px 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .header-banner h1 {
+            font-size: 24pt;
+            margin-bottom: 8px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .header-banner p {
+            font-size: 12pt;
+            opacity: 0.9;
+            font-style: italic;
+        }
+
+        .section-title {
+            font-size: 15pt;
+            color: #1e4620;
+            padding-bottom: 6px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #a3cfbb;
+            page-break-after: avoid;
+        }
+
+        .grid-container {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            border: 1px solid #e9ecef;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+            page-break-inside: avoid;
+        }
+
+        .card-title {
+            font-size: 12pt;
+            color: #2e7d32;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        /* Representação visual das imagens usando CSS puro e SVG inline */
+        .image-placeholder {
+            background-color: #f1f3f5;
+            border: 1px dashed #ced4da;
+            border-radius: 4px;
+            padding: 20px;
+            text-align: center;
+            margin: 12px 0;
+            color: #495057;
+            font-size: 9.5pt;
+        }
+
+        .image-placeholder svg {
+            margin-bottom: 8px;
+            fill: #2e7d32;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 9pt;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 15px;
+        }
+
+        .highlight-box {
+            background-color: #e8f5e9;
+            border-left: 4px solid #2e7d32;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 0 4px 4px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Explorando o Paraná</h1>
+        <p>Uma releitura autoral sobre as riquezas, cultura e paisagens do estado do Sul do Brasil</p>
+    </div>
+
+    <div class="highlight-box">
+        <strong>💡 Nota do Projeto (Releitura):</strong> Este site foi desenvolvido como parte prática da avaliação de Algoritmos e HTML/CSS. O conteúdo foi personalizado para celebrar a identidade paranaense, estruturado de forma limpa e otimizado para portfólios do GitHub.
+    </div>
+
+    <h2 class="section-title">🌲 Símbolo Natural: A Araucária e o Pinhão</h2>
+    <div class="card">
+        <p>A paisagem do Paraná é inconfundível graças à imponente <strong>Araucária (Pinheiro-do-Paraná)</strong>. Com sua copa em formato de cálice, ela domina as regiões mais frias do estado.</p>
+        
+        <div class="image-placeholder">
+            <svg width="48" height="48" viewBox="0 0 24 24"><path d="M12 2L2 22h20L12 2zm0 3.99L18.53 18H5.47L12 5.99zM11 10h2v3h-2zm0 4h2v2h-2z"/></svg>
+            <br><strong>[Espaço para Imagem: Paisagem de Pinheiros Araucária no Pôr do Sol]</strong>
+            <br><small>URL Sugerida para o código: <code>assets/images/araucaria.jpg</code></small>
+        </div>
+
+        <p>O fruto desse pinheiro é o <strong>Pinhão</strong>, colhido no outono e inverno. Além de alimentar a fauna local (como a mítica Gralha-Azul), o pinhão é a base de festivais gastronômicos e consumido cozido, assado ou em pratos elaborados.</p>
+    </div>
+
+    <h2 class="section-title">🍲 Culinária e Comidas Típicas</h2>
+    <div class="card">
+        <p>A culinária paranaense reflete a mistura de culturas indígenas, tropeiras e dos diversos imigrantes europeus.</p>
+        <ul>
+            <li><strong>Barreado:</strong> Prato típico do litoral paranaense (Morretes e Antonina). É um cozido de carne bovina preparado em panela de barro hermeticamente fechada por mais de 12 horas, servido com farinha de mandioca e banana.</li>
+            <li><strong>Entrevero de Pinhão:</strong> Prato tradicional que mistura o pinhão cozido com carnes (bovina, suína, bacon) e vegetais picados.</li>
+            <li><strong>Café Colonial:</strong> Uma tradição forte nas cidades de colonização germânica e eslava no interior do estado.</li>
+        </ul>
+        
+        <div class="image-placeholder">
+            <svg width="48" height="48" viewBox="0 0 24 24"><path d="M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.73-.47 8.5-4.25 8.97-8.99h-6.97z"/></svg>
+            <br><strong>[Espaço para Imagem: Panela de Barro com Barreado Tradicional]</strong>
+        </div>
+    </div>
+
+    <h2 class="section-title">📍 Cidades e Pontos Turísticos em Destaque</h2>
+    
+    <div class="card">
+        <div class="card-title">1. Curitiba (A Capital Ecológica)</div>
+        <p>Conhecida mundialmente pelo seu planejamento urbano e extensas áreas verdes. Os grandes destaques são o <strong>Jardim Botânico</strong> (com sua famosa estufa de ferro e vidro) e a <strong>Ópera de Arame</strong>.</p>
+    </div>
+
+    <div class="card">
+        <div class="card-title">2. Foz do Iguaçu (Maravilha Mundial)</div>
+        <p>Abriga as impressionantes <strong>Cataratas do Iguaçu</strong>, uma das Sete Maravilhas Naturais do Mundo, e a Usina Hidrelétrica de Itaipu, exemplo monumental de engenharia.</p>
+        
+        <div class="image-placeholder">
+            <svg width="48" height="48" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 12 10 10-4.48 10-12S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+            <br><strong>[Espaço para Imagem: Vista panorâmica das Cataratas do Iguaçu]</strong>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-title">3. Vila Velha (Ponta Grossa)</div>
+        <p>O Parque Estadual de Vila Velha impressiona pelas suas formações rochosas milenares (arenitos) esculpidas pelo vento e pelas águas ao longo do tempo, como a famosa "Taça".</p>
+    </div>
+
+    <h2 class="section-title">🎭 Aspectos Culturais</h2>
+    <div class="card">
+        <p>A cultura do Paraná é um mosaico vivo. A forte presença de imigrantes poloneses, ucranianos, italianos, alemães e japoneses moldou a arquitetura, as danças folclóricas e o calendário de festas do estado. Destaca-se também a lenda da <strong>Gralha-Azul</strong>, a ave símbolo que, segundo o folclore, é a grande responsável por plantar as florestas de araucária ao enterrar os pinhões na terra.</p>
+    </div>
+
+    <div class="footer">
+        <p>Projeto Releitura Escolar - HTML, CSS e Algoritmos | Criado para fins pedagógicos.</p>
+    </div>
+
+</body>
+</html>
